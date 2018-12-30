@@ -35,5 +35,3 @@ class CreateAcceptOrderTest extends Simulation with OrderRequests {
       global.successfulRequests.percent.gt(95)
     )
 }
-
-

@@ -18,7 +18,4 @@ trait LoginRequests {
     .check(status.is(200))
     .check(jsonPath("$.role").find.is("CLIENT"))
     .check(jsonPath("$.id").find.saveAs("clientId"))
-
 }
-
-
