@@ -15,7 +15,7 @@ The test sends a given number of requests with a linear ramp over 5 seconds.
 Maximum acceptable response Time is set to 5000 ms.
 Successful requests percent is set to greater than 95%.
 
-To run a simulation:
+Run a simulation in "ezakupy" directory:
 
 Start SBT
 ---------
@@ -27,7 +27,7 @@ Run a test
 -----------------------
 
 ```bash
-> gatling:testOnly ezakupy.CreateAcceptOrder
+> gatling:testOnly ezakupy.CreateAcceptOrderTest
 ```
 
 
